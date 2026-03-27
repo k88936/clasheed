@@ -1,0 +1,11 @@
+services:
+  wallence:
+    image: kvtodev/wallence
+    pull_policy: never
+    container_name: wallence
+    restart: unless-stopped
+    ports:
+      - "7890:7890"
+    environment:
+      - DIRECT_DOMAINS=${DIRECT_DOMAINS}
+      - SUBSCRIPTIONS=${SUBSCRIPTIONS} 
