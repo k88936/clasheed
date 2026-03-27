@@ -1,6 +1,6 @@
 services:
   wallence:
-    image: kvtodev/wallence
+    image: registry-1.docker.io/kvtodev/wallence
     pull_policy: never
     container_name: wallence
     restart: unless-stopped
