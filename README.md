@@ -1,6 +1,8 @@
 ## import image
 ```shell
 wget -O /tmp/wallence.tar --no-proxy https://rustfs.k88936.top/software-release/wallence/latest/image.tar
+# OR
+# wget -O /tmp/wallence.tar --no-proxy https://gitee.com/k88936/clasheed/releases/download/v0.1.0/image.tar
 podman load -i /tmp/wallence.tar
 ```
 
