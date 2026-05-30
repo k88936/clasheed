@@ -12,7 +12,9 @@ podman load -i /tmp/wallence.tar
 
 ## start proxy service
 ```shell
-podman-compose up -d --rm
+podman-compose up
+# cleanup
+podman-compose down
 ```
 ## set env
 ```shell
